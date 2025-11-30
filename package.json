@@ -1,0 +1,23 @@
+{
+  "name": "fullstack-vue-hono",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development node server.js",
+    "build": "vite build --outDir dist/client && vite build --ssr src/entry-server.js --outDir dist/server",
+    "preview": "cross-env NODE_ENV=production node server.js",
+    "clean:all": "rm -rf node_modules && rm -rf ./dist"
+  },
+  "dependencies": {
+    "@vue/server-renderer": "^3.5.25",
+    "hono": "^4.10.7",
+    "vue": "^3.5.24",
+    "vue-router": "^4.6.3"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.1",
+    "cross-env": "^10.1.0",
+    "vite": "^7.2.4"
+  }
+}
