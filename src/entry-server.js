@@ -1,4 +1,3 @@
-// src/entry-server.js
 import { createApp } from "./main";
 import { renderToString } from "@vue/server-renderer";
 

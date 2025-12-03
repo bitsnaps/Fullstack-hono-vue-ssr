@@ -1,4 +1,3 @@
-// src/main.js
 import { createSSRApp } from "vue";
 import {
   createRouter,
@@ -7,7 +6,7 @@ import {
 } from "vue-router";
 import App from "./App.vue";
 import routes from "./router";
-import "./assets/main.css";
+import "./style.css";
 
 export function createApp() {
   const app = createSSRApp(App);

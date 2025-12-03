@@ -1,4 +1,3 @@
-// src/entry-client.js
 import { createApp } from "./main";
 
 const { app, router } = createApp();

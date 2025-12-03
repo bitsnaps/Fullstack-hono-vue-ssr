@@ -1,4 +1,3 @@
-// src/router/index.js
 import Home from "../pages/Home.vue";
 import About from "../pages/About.vue";
 
