@@ -12,7 +12,7 @@ dependencies:
     specifier: ^4.10.7
     version: 4.10.7
   vue:
-    specifier: ^3.5.24
+    specifier: ^3.5.25
     version: 3.5.25
   vue-router:
     specifier: ^4.6.3
@@ -20,14 +20,14 @@ dependencies:
 
 devDependencies:
   '@vitejs/plugin-vue':
-    specifier: ^6.0.1
-    version: 6.0.2(vite@7.2.4)(vue@3.5.25)
+    specifier: ^6.0.2
+    version: 6.0.2(vite@7.2.6)(vue@3.5.25)
   cross-env:
     specifier: ^10.1.0
     version: 10.1.0
   vite:
-    specifier: ^7.2.4
-    version: 7.2.4
+    specifier: ^7.2.6
+    version: 7.2.6
 
 packages:
 
@@ -478,7 +478,7 @@ packages:
     resolution: {integrity: sha512-dWHzHa2WqEXI/O1E9OjrocMTKJl2mSrEolh1Iomrv6U+JuNwaHXsXx9bLu5gG7BUWFIN0skIQJQ/L1rIex4X6w==}
     dev: true
 
-  /@vitejs/plugin-vue@6.0.2(vite@7.2.4)(vue@3.5.25):
+  /@vitejs/plugin-vue@6.0.2(vite@7.2.6)(vue@3.5.25):
     resolution: {integrity: sha512-iHmwV3QcVGGvSC1BG5bZ4z6iwa1SOpAPWmnjOErd4Ske+lZua5K9TtAVdx0gMBClJ28DViCbSmZitjWZsWO3LA==}
     engines: {node: ^20.19.0 || >=22.12.0}
     peerDependencies:
@@ -486,7 +486,7 @@ packages:
       vue: ^3.2.25
     dependencies:
       '@rolldown/pluginutils': 1.0.0-beta.50
-      vite: 7.2.4
+      vite: 7.2.6
       vue: 3.5.25
     dev: true
 
@@ -737,8 +737,8 @@ packages:
       picomatch: 4.0.3
     dev: true
 
-  /vite@7.2.4:
-    resolution: {integrity: sha512-NL8jTlbo0Tn4dUEXEsUg8KeyG/Lkmc4Fnzb8JXN/Ykm9G4HNImjtABMJgkQoVjOBN/j2WAwDTRytdqJbZsah7w==}
+  /vite@7.2.6:
+    resolution: {integrity: sha512-tI2l/nFHC5rLh7+5+o7QjKjSR04ivXDF4jcgV0f/bTQ+OJiITy5S6gaynVsEM+7RqzufMnVbIon6Sr5x1SDYaQ==}
     engines: {node: ^20.19.0 || >=22.12.0}
     hasBin: true
     peerDependencies:
